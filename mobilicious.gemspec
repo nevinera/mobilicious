@@ -7,7 +7,7 @@ PKG_FILES = [
   'lib/mobilicious.rb',
   'MIT-LICENSE',
   'Rakefile',
-  'README'
+  'README.md'
 ]
 spec = Gem::Specification.new do |s|
   s.name = 'mobilicious'

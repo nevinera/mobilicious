@@ -1,8 +1,9 @@
 Mobilicious
 ==========
 
-A very simple rails gem - adds the might_be_mobile method to ActionController::Base -
-call it from any of your controllers (though usually just from application controller),
+A very simple rails gem - adds the might_be_mobile method to ActionController::Base.
+
+Call it from any of your controllers (though usually just from application controller),
 and it will make the controller method `is_mobile?` available, and declare it a helper
 (so it can be used from views).
 

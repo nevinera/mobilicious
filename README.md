@@ -31,4 +31,4 @@ The most common usage of `is_mobile?` is to add an extra stylesheet for mobile u
 ```
 
 
-Copyright (c) 2011 [name of plugin creator], released under the MIT license
+Copyright (c) 2011 Eric Mueller, released under the MIT license

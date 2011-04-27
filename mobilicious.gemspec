@@ -1,15 +1,13 @@
 
 PKG_FILES = [
   'init.rb',
-  'install.rb',
   'lib',
   'lib/mobilicious',
   'lib/mobilicious/rails_ext.rb',
   'lib/mobilicious.rb',
   'MIT-LICENSE',
   'Rakefile',
-  'README',
-  'uninstall.rb'
+  'README'
 ]
 spec = Gem::Specification.new do |s|
   s.name = 'mobilicious'

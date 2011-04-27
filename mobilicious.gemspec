@@ -11,7 +11,7 @@ PKG_FILES = [
 ]
 spec = Gem::Specification.new do |s|
   s.name = 'mobilicious'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.author = 'Eric Mueller'
   s.email = 'nevinera@gmail.com'
   s.homepage = 'http://github.com/nevinera/mobilicious'
@@ -20,6 +20,6 @@ spec = Gem::Specification.new do |s|
   s.files = PKG_FILES
   s.require_path = "lib"
   s.has_rdoc = false
-  s.extra_rdoc_files = ["README"]
+  s.extra_rdoc_files = ["README.md"]
 end
 

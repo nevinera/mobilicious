@@ -4,10 +4,6 @@ module MightBeMobile
 
   MOBILE_REGEX = /mobile/i
 
-  def self.included(base)
-    # puts "included!"
-  end
-
   def is_mobile?
     return request.headers['User-Agent'] =~ MOBILE_REGEX
   end

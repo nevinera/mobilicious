@@ -11,7 +11,7 @@ PKG_FILES = [
 ]
 spec = Gem::Specification.new do |s|
   s.name = 'mobilicious'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.author = 'Eric Mueller'
   s.email = 'nevinera@gmail.com'
   s.homepage = 'http://github.com/nevinera/mobilicious'

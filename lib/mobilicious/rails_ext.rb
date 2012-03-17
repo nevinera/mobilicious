@@ -5,6 +5,7 @@ module MightBeMobile
   MOBILE_REGEX = /mobile/i
 
   def is_mobile?
+    return true if params[:mobile].present?
     return request.headers['User-Agent'] =~ MOBILE_REGEX
   end
 

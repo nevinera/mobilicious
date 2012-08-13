@@ -13,7 +13,11 @@ module MightBeMobile
 
   def prepare_for_mobile
     session[:mobile_param] = params[:mobile] if params[:mobile]
-    request.format = :mobile if is_mobile?
+    when_mobile if is_mobile?
+  end
+
+  def when_mobile
+    request.format = :mobile
   end
 end
 
